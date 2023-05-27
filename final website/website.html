@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body> <!--Body tag-->
+
+    <header class="header">
+        <a href="#" class="logo">My Portfolio</a>
+<!--Navigation-->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+<!--Home section-->
+<section class="home"id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Muhammad Rahil Saeed</h1>
+        <h3>And I'm a <span>Programmer</span></h3>
+        <p>Currently I'm studying in Bathspa University and My aim is to become a Programmer</p>
+
+<!--Creating div tag for social media icons-->
+        <div class="social-media">
+            <a href="https://twitter.com/home?lang=en"><img src="./image/twitter-logo-24.png" ></a>
+            <a href="https://www.linkedin.com/feed/"><img src="./image/linkedin-logo-24.png"></a>
+            
+        </div>
+        <a href="My cv.pdf" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+        <img src="./image/final.png" width="400" height="400">
+    </div>
+</section>
+
+<!--About Section-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="./image/final.png" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>I have Completed my higher secondary education from Sramps School. After completing My higher secondary Education Now I am studying in bathspa University.
+             This is my first year in this University and I have really found it inetersting because there are so many new things to learn here. I have Choosed Creative Computing as my subject which is really exciting and interesting course.
+            My Aim is to become a professional programmer.</p>
+              
+            <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+
+<!--Courses section-->
+<section class="courses" id="courses">
+    <h2 class="heading">Courses that I'm <span>Studying</span></h2>
+
+    <div class="courses-container">
+        <div class="courses-box">
+            <a href="#"><img src="./image/code-alt-regular-24.png"></a>
+            <h3>Web Developement</h3>
+            <p>Currently I'm in my Second Semester in which we have three modules. One of them is Web Developement. 
+                This is an interesting module in which we can learn many types of codes and also create our own websites. This is one of my favourite modules. </p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="courses-box">
+            <a href="#"><img src="paint-solid-24.png" ></a>
+            <h3>UX DESIGN</h3>
+            <p>Currently I'm in my Second Semester in which we have three modules. The other one is UX DESIGN. 
+                This is an interesting module in which we can learn many steps of designing and also design our own websites or apps. </p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="courses-box">
+            <a href="#"><img src="bar-chart-alt-regular-24.png" ></a>
+            <h3>Creative Strategies</h3>
+            <p>Currently I'm in my Second Semester in which we have three modules. The last one is Creative Strategies. 
+                This is a Creative module in which we can learn many types of Ideation techniques and their Strenghts and Weaknessess. </p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+
+<!--Projects section -->
+<section class="projects" id="projects">
+    <h2 class="heading">My <span>Projects</span></h2>
+
+    <div class="projects-container">
+    
+        <div class="projectcard">
+            <img src="my project 1.png" width="410" height="300">
+            <h3>Website Redesign</h3>
+            <p>This is my Website Redesign project.I choosed flipkart website for redesigning. you can check it by clicking the button. </p>
+            <a href="https://www.figma.com/file/ltuLOQ04tvVKgJifwtRNJQ/Untitled?type=design&node-id=0-1&t=HhmDR5jBueoXZkVb-0" class="btn">View Project</a>
+        </div>
+        <div class="projectcard">
+            <img src="my project 2.png" width="410" height="300">
+             <h3>Research Journal</h3>
+                <p>This is my Research Journal sway project for creative strategies module. you can check it by clicking the button.</p>
+                <a href="https://sway.office.com/KVEDOTZJ28XROPUc" class="btn">View Project</a>
+        </div>
+        <div class="projectcard">
+            <img src="my project 3.png" width="410" height="300">
+                <h3>Digital Visual design</h3>
+                    <p>This is my Digital Visual design.This was my assignment for 1st semster. you can check it by clicking the button.</p>
+                    <a href="https://sway.office.com/QfVQvWeOMTqBxu9C" class="btn">View Project</a>
+                </div>
+
+    </div>
+</section>
+
+<!--Contact Section-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send your message!" class="btn">
+    </form>
+</section>
+
+<!--Footer-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by <span>M.Rahil</span> | All Rights Reserved.</p>
+    </div>
+</footer>
+ 
+<script src="website.js"></script>
+
+</body>
+
+</html>
